@@ -6,7 +6,7 @@ export default function useCreateListUsers() {
 
   function registerUser(data) {
     setUser(data);
-    setList(...list, data);
+    setList([...list, data]);
   }
 
   return {

@@ -27,7 +27,7 @@ function App() {
             <Route exact path="/list">
               <List  />
             </Route>
-            <Route exact path="/details">
+            <Route exact path="/details/:name">
               <Details />
             </Route>
 
